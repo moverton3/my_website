@@ -1,32 +1,133 @@
 html body {
   height: 100%;
+  /* background-image: url("images/wood.jpeg"); */
 }
-
-h1 {
+.home-1 {
+  padding: 20px;
   display: flex;
-  justify-content: center;
-  font-size: 50px;
+  align-items: left;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
+.navbar a:hover,  {
+    /* background-color: white; */
+}
+.primary_header {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 60px;
+}
+h1 {
+  font-size: 55px;
+}
+a:hover {
+    text-decoration: none;
+    display: block;
+    /* color: #fff; */
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.dropdown-item {
+  color: #000000;
+}
 body {
   font: 300 16px/22px "Poiret One", "Open Sans", "Helvetica";
 }
-
-li {
-  display: inline-block;
-}
-
-.beach img {
+.home_list {
+  list-style: none;
+  margin-top: 50px;
   display: flex;
-  justify-content: center;
-  width: 400px;
-  max-width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 90px;
+}
+#hobs {
+  width: 300px;
+  font-size: 30px;
+}
+#portfolio {
+  width: 300px;
+  font-size: 30px;
+}
+#resume {
+  width: 300px;
+  font-size: 30px;
+}
+#connect {
+  width: 300px;
+  font-size: 30px;
+}
+.mal img {
+  border-radius: 50%;
+  display: flex;
+  width:100%;
   height: auto;
   border: 5px solid black;
 }
-.beach {
-  margin: auto;
-  border: 1px solid;
+.mal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#carouselExampleIndicators {
+  width: 700px;
+}
+.carContain {
+  display: flex;
+  justify-content: center;
+}
+
+.ireland {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ireland img {
+  display: flex;
+  height: 250px;
+}
+.rainbow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.rainbow img {
+  display: flex;
+  width: auto;
+  height: 250px;
+}
+.fourwheel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fourwheel img {
+  display: flex;
+  width: auto;
+  height: 250px;
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+h2 {
+  font-size: 35px;
 }
 
 .primary_nav {
@@ -34,34 +135,14 @@ li {
   flex-direction: column;
   justify-content: space-between;
 }
-
-.hero_container {
-  text-align: center;
-}
-
-.hero_container p {
-  font-size: 20px;
-}
-
 .primary_footer {
   font-size: 30px;
-  position: fixed;
   bottom: 0;
+  position: absolute;
   width: 100%;
-  text-align: center;
+  align-items: center;
+  justify-content: space-around;
 }
-
-.nav {
-  font-size: 25px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  bottom: 0;
-}
-
-.footstyle {
-  border: 3px solid: white;
-  background-color: #ADD8E6;
-
+.about_header {
+  position: absolute;
 }
